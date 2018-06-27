@@ -7,7 +7,7 @@ import { Subject } from "rxjs";
 export class PostsService {
     private posts: Post[] = [];
     private postsUpdated = new Subject<Post[]>();
-    private url = 'http://54.208.101.106:3000/api';
+    private url = 'http://54.173.104.49:3000/api';
 
     constructor(private http: HttpClient) { }
 
